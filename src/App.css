@@ -1,0 +1,238 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: navy;
+  color: white;
+}
+
+.header {
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: blue;
+  color: white;
+  margin-right: 0px;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.header h1 .seo {
+  color: white;
+}
+
+.header div {
+  padding-top: 20px;
+  margin-right: 25px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.grid-item {
+  color: navy;
+}
+
+.grid-item a {
+  color: blue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+}
+
+.hero {
+  height: 160px;
+  width: 100%;
+  margin-top: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  margin-right: 0px;
+}
+
+/*.float-left {
+    float: left;
+    margin-right: 25px;
+} */
+
+/* .float-right {
+    float: right;
+    margin-left: 25px;
+} */
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 100px;
+}
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-me {
+  width: 100%;
+  height: 180px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.about-me {
+  padding: 90px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: lightgrey;
+  color: blue;
+  margin-right: 25px;
+}
+
+.about-me h2 {
+  display: inline-block;
+  font-size: 25px;
+}
+
+/*.content p {
+    font-size: 16px;
+    margin-left: 400px;
+} */
+
+/*.work {
+    margin-left: 100px;
+    padding: 100px;
+    clear: both;
+    float: right;
+    width: 100%;
+    height: 750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, "Trebuchet MS", sans-serif;
+    background-color: #2589bd;
+} */
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 550px;
+}
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom {
+  padding: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: blue;
+  color: white;
+  margin-right: 0px;
+}
+
+.bottom h2 {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.bottom h1 .seo {
+  color: #d9dcd6;
+}
+
+.bottom div {
+  padding-top: 20px;
+  margin-left: 25px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.bottom div ul {
+  list-style-type: none;
+}
+
+.bottom div ul li {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: grey;
+  padding: 5px;
+  height: 450px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    background-color: white;
+  }
+}
